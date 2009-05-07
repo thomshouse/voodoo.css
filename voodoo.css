@@ -1,0 +1,28 @@
+/* "Voodoo Child" CSS Reset by Thom Stricklin. Based on W3C defaults, YUI and work by Shaun Inman. */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,form,fieldset,input,p,blockquote,table,th,td,embed,object {
+padding: 0; margin: 0; outline: 0; }
+table { border-collapse: collapse; border-spacing: 0; font-size: 1em; }
+fieldset, img, abbr { border: 0; }
+address, caption, cite, code, dfn, th, var { font-weight: normal; font-style: normal; }
+caption, th { text-align: left; }
+h1 { font-size: 2.0em; }
+h2 { font-size: 1.50em; }
+h3 { font-size: 1.17em; }
+h4, h5, h6 { font-size: 1.0em; }
+h1, h2, h3, h4, strong, b { font-weight: bolder; }
+h5 { font-weight: bold; }
+h6 { font-weight: normal; }
+q:before, q:after { content: ''; }
+a, ins { text-decoration: none; }
+sub { vertical-align: bottom; font-size: 0.67em; }
+sup { vertical-align: top; font-size: 0.67em; }
+
+ 
+
+/* Slight Return. These settings are more likely to change from project-to-project. */
+h1,p,blockquote { margin-top: 0em; margin-bottom: 0.5em; }
+h2,h3,h4,h5,h6 { margin-top: 1em; margin-bottom: 0.5em; }
+ul, ol, blockquote, dd { margin-left: 5ex; }
+.block-list li { list-style: none; }
+.inline-list li { list-style: none; display: inline; }
